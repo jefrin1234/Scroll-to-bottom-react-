@@ -71,7 +71,7 @@ function ScrollToSection() {
       <h1>Scroll to a particular section</h1>
       <button onClick={handleScrollToSection} style={{padding:'10px 25px',color:'orange' , fontWeight:'900',border:'2px solid gray',borderRadius:'3px',background:'red',cursor:'pointer'}}>Click To Scroll</button>
       {
-        data.map( (item,index)=> <div ref={index === 3 ? ref : null} style={item.style}>
+        data.map( (item,index)=> <div ref={index === 5 ? ref : null} style={item.style}>
           <h3>{item.label}</h3>
         </div> )
       }
